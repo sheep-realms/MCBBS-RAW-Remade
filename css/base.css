@@ -1,0 +1,164 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma,'Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif;
+}
+
+
+.page {
+	margin: auto;
+	padding: 0;
+	width: 960px
+}
+
+.page a {
+	color: blue;
+	text-decoration: none;
+}
+
+.header {
+	height: 160px;
+	width: auto;
+}
+
+.header-logo {
+	float: left;
+	width: 360px;
+	margin: 15px 0 0 0;
+}
+
+.header-userinfo {
+	float: right;
+	width: auto;
+	margin: 110px 10px 0 0;
+	text-align: right;
+}
+
+.menubar {
+	width: auto;
+	height: 50px;
+	background-color: #999;
+	padding: 0 15px;
+}
+
+.menubar li {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	list-style-type: none;
+	display: block;
+	padding: 0 0;
+	font-size: 18px;
+}
+
+.menubar li:hover {
+	background-color: #888;
+}
+
+.menubar li:active {
+	background-color: #666;
+}
+
+.menubar li a {
+	height: auto;
+	width: auto;
+	padding: 0 10px;
+	display: block;
+}
+
+.conter {
+	width: auto;
+	background-color: #CCC;
+	min-height: 300px;
+	padding: 10px;
+}
+
+.conter-right {
+	width: 670px;
+}
+
+.nav {
+	width: auto;
+	height: 25px;
+	background-color: #DDD;
+	padding: 0 5px;
+	line-height: 25px;
+}
+
+.module {
+	background-color: #DDD;
+	min-height: 35px;
+	margin: 10px 0;
+}
+
+.module-title {
+	background-color: #AAA;
+	height: 35px;
+	margin: 10px 0;
+	font-weight: bold;
+	line-height: 35px;
+	padding: 0 15px;
+}
+
+.module-text {
+	padding: 0 10px 10px 10px;
+}
+
+.footer {
+	width: auto;
+	background-color: #BBB;
+	min-height: 150px
+}
+
+.footer-info {
+	float: right;
+	text-align: right;
+	margin: 50px 20px;
+}
+
+.forum-list {
+	margin: 0 auto;
+}
+
+.forum-list table {
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.forum-list table tr td p {
+	font-size: 14px
+}
+
+.forum-list forum-img-icon {
+	margin: 0 auto;
+	width: auto;
+	display: block;
+}
+
+.post-list {
+	background-color: #DDD;
+	padding: 10px;
+}
+
+.post-box {
+	padding: 10px 20px 20px 20px;
+}
+
+.post-box form p {
+	margin: 0 0 15px 0;
+}
+
+.infobox {
+	width: 450px;
+	min-height: 15px;
+	margin: 100px auto;
+	background-color: #EEE;
+	padding: 50px
+}
+
+.text-error {
+	color: red;
+	font-weight: bold;
+}
